@@ -1,0 +1,23 @@
+{
+  "name": "cep-FetchAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoremanuelsr/cep-FetchAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoremanuelsr/cep-FetchAPI/issues"
+  },
+  "homepage": "https://github.com/victoremanuelsr/cep-FetchAPI#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
