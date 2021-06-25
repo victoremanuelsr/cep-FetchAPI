@@ -13,10 +13,9 @@ cep.addEventListener("blur", (e)=>{
     method: 'GET',
     mode: 'cors',
     cache: 'default'
-  }
+  };
   fetch(`https://viacep.com.br/ws/${pesquisaLimpa}/json`, opcoes)
   .then(response => {
     response.json().then( dados => mostrarDados(dados))
-  }).catch(e => console.log("Deu erro: " + e.message))
-  
-})
+  }).catch(e => console.log("Deu erro: " + e.message));
+});
